@@ -5,8 +5,8 @@ function fatorial($n1)
     if ($n1 > 1) {
 
         $n2 = 1;
-        for ($i = $n1 + 1; $i > 1; $i--) {
-            $n2 = $n2 * $n1--;
+        for ($i = $n1; $i > 1; $i--) {
+            $n2 = $n2 * $n1;
         }
         return $n2 . "\n";
     } else if ($n1 = 1) {
